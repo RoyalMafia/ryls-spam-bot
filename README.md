@@ -11,8 +11,20 @@ $ Node.js
 $ git clone https://github.com/RoyalMafia/ryls-spam-bot.git
 $ cd ryls-spam-bot
 $ npm install
-$ node bot.js {Steam Username} {Steam Password}
 ```
+OR
+```bash
+$ download zip and extract
+$ open cmd and set cur dir to the bots dir
+$ enter 'npm install'
+```
+
+### How to run the bot
+```bash
+$ open cmd and set cur dir to the bots dir
+$ enter 'node bot.js {Steam Username} {Steam Password}'
+```
+
 When you run the script you maybe asked for a Steam Guard Authentication code. 
 
 ### Usage
@@ -22,5 +34,4 @@ Finally you'll be asked for the message which will be spammed.
 
 ### Usage Example
 ![Console Preview](https://i.gyazo.com/2c4bdc0aa91532713d8d783995af38e0.png)
-
 ![Steam chat preview](https://i.gyazo.com/fc24046940655428fd565e0913fb1ef0.png)
