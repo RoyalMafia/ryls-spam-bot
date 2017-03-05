@@ -22,4 +22,5 @@ Finally you'll be asked for the message which will be spammed.
 
 ### Usage Example
 ![Console Preview](https://i.gyazo.com/2c4bdc0aa91532713d8d783995af38e0.png)
-![Steam chat preview](https://gyazo.com/fc24046940655428fd565e0913fb1ef0)
+
+![Steam chat preview](https://i.gyazo.com/fc24046940655428fd565e0913fb1ef0.png)
