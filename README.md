@@ -1,43 +1,25 @@
-# Ryl's Steam Bot
-A simple steam bot I'm working on.
+# ryl's spam bot
+This is a spam bot for steam.
 
 ## Required
 ```bash
 $ Node.js
 ```
-## Optional
-```bash
-$ Cleverbot features which require a username & key ( https://cleverbot.io/ )
-```
 
 ## How to install:
 ```bash
-$ git clone https://github.com/RoyalMafia/Ryl-s-Steam-Bot.git
-$ cd Ryl-s-Steam-Bot
+$ git clone https://github.com/RoyalMafia/ryls-spam-bot.git
+$ cd ryls-spam-bot
 $ npm install
 $ node bot.js {Steam Username} {Steam Password}
 ```
-When you run the script you may be asked for a Steam Guard Authentication code. 
+When you run the script you maybe asked for a Steam Guard Authentication code. 
 
-## Current Chat Commands:
-```bash
-$ !cmds - Displays all available commands & a description
-$ !chatroom - Creates a chat room & invites / Invites (If a chat room already exists) to exist chat room
-$ !invchat - Invites you to a chat room if one exists
-```
+### Usage
+Once you've logged in you'll be asked for a target, for this you only need to enter a part of their name ( example: "roya" will find "royalmafia" etc ).
+Once it has found the user it'll ask you how many times you want the message to be sent, I limited it to a max of 999 messages.
+Finally you'll be asked for the message which will be spammed. 
 
-## Current Features:
-```bash
-$ Can create chat rooms
-$ Can invite users who ask to be invited to the existing chat room
-$ Has an autoresponse feature if the user doesn't specify an existing command using cleverbot.io
-$ Auto accept friend requests
-$ Kick players from chat room using chat commands
-```
-
-## To do:
-```bash
-$ Ban players from chat
-$ Group invites
-$ Trading (Probably will be used for middleman trades, not sure)
-```
+### Usage Example
+![Console Preview](https://i.gyazo.com/2c4bdc0aa91532713d8d783995af38e0.png)
+![Steam chat preview](https://gyazo.com/fc24046940655428fd565e0913fb1ef0)
